@@ -1,0 +1,124 @@
+{
+    "key": "group_561e879c158aa",
+    "title": "Resize Settings",
+    "fields": [
+        {
+            "key": "field_561e8a22f5cf9",
+            "label": "Max Width",
+            "name": "max_width",
+            "type": "text",
+            "instructions": "Maximum width for generated images",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-text field_key-field_561e8a22f5cf9 field_type-text field_key-field_561e8a22f5cf9 field_type-text field_key-field_561e8a22f5cf9 field_type-text field_key-field_561e8a22f5cf9",
+                "id": ""
+            },
+            "default_value": 2000,
+            "placeholder": 2000,
+            "prepend": "",
+            "append": "px",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_561e8a4bf5cfa",
+            "label": "Max Height",
+            "name": "max_height",
+            "type": "text",
+            "instructions": "Maximum height for generated images",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-text field_key-field_561e8a4bf5cfa field_type-text field_key-field_561e8a4bf5cfa field_type-text field_key-field_561e8a4bf5cfa field_type-text field_key-field_561e8a4bf5cfa",
+                "id": ""
+            },
+            "default_value": 2000,
+            "placeholder": 2000,
+            "prepend": "",
+            "append": "px",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_561e8a62f5cfb",
+            "label": "Image Scale Step Size",
+            "name": "size_step",
+            "type": "text",
+            "instructions": "The interval images should be sized to. Reduces the number of images that can be cached. For example, with a step size of 200, a request for a 570 pixel wide image will return an image sized to 600 pixels wide.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-text field_key-field_561e8a62f5cfb field_type-text field_key-field_561e8a62f5cfb field_type-text field_key-field_561e8a62f5cfb field_type-text field_key-field_561e8a62f5cfb",
+                "id": ""
+            },
+            "default_value": 200,
+            "placeholder": 200,
+            "prepend": "",
+            "append": "px",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_561e8aedf5cfc",
+            "label": "Image Offset Step Size",
+            "name": "offset_step",
+            "type": "text",
+            "instructions": "The interval cropped images can be offset to. Reduces the number of images that can be cached. For example, with an offset step size of 50, the only possible offsets are 0, 50, and 100. Should be a common denominator of both 50 and 100 for best results.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-text field_key-field_561e8aedf5cfc field_type-text field_key-field_561e8aedf5cfc field_type-text field_key-field_561e8aedf5cfc field_type-text field_key-field_561e8aedf5cfc",
+                "id": ""
+            },
+            "default_value": 50,
+            "placeholder": 50,
+            "prepend": "",
+            "append": "%",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_561e8b71f5cfd",
+            "label": "Disable Cropping",
+            "name": "disable_cropping",
+            "type": "true_false",
+            "instructions": "Disables cropping. Please note, exponentially more images may be generated with cropping enabled.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-true_false field_key-field_561e8b71f5cfd field_type-true_false field_key-field_561e8b71f5cfd field_type-true_false field_key-field_561e8b71f5cfd field_type-true_false field_key-field_561e8b71f5cfd",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-dynamic-images"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1444847684
+}
