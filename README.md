@@ -3,6 +3,7 @@ A WordPress plugin that dynamically displays resized images based upon context a
 
 # Dependancies
 Advanced Custom Fields | advancedcustomfields.com
+
 Used for the admin interface - will be replaced, currently in place for rapid prototyping.
 
 # Installation
